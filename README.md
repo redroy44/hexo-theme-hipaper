@@ -1,5 +1,5 @@
-# hexo-theme-hiero Sample
+# hexo-theme-hiker Sample
 
-Hi, this is hexo-theme-hiero sample website.
+Hi, this is hexo-theme-hiker sample website.
 
-You can click here(https://itimetraveler.github.io/hexo-theme-hiero) to visit.
+You can click here(https://itimetraveler.github.io/hexo-theme-hiker) to visit.
