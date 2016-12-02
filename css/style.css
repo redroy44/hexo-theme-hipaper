@@ -472,6 +472,7 @@ body {
   margin: 0 0 3px 0;
   font-size: 2em;
   line-height: 1.2;
+  font-weight: bold;
 }
 .article-header h1 a {
   color: #333;
@@ -928,7 +929,7 @@ a.article-title:hover {
 }
 .article-gallery-img img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 .toc-article {
