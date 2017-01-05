@@ -57,7 +57,11 @@ Artificial intelligence has the power to">
 
 </head>
 
-<body>
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
   
 
 
@@ -67,11 +71,14 @@ Artificial intelligence has the power to">
       <div class="site-branding">
 
           <h1 class="site-title">
-            <a href="/hexo-theme-hipaper/" title="iTimeTraveler" rel="home">
-              iTimeTraveler</a>
+            
+              <a href="/hexo-theme-hipaper/" title="iTimeTraveler" rel="home"> iTimeTraveler </a>
+            
           </h1>
-          <div class="site-description">Someone knock at the door.</div>
-
+          
+          
+            <div class="site-description">Someone knock at the door.</div>
+          
             
           <nav id="main-navigation" class="main-navigation" role="navigation">
             <a class="nav-open">Menu</a>
@@ -110,7 +117,7 @@ Artificial intelligence has the power to">
 <div class="article-gallery">
   <div class="article-gallery-photos">
     
-      <a class="article-gallery-img fancybox" href="../../../../gallery/confederate_newspaper.png" rel="gallery_cixgvow9s000w70my7spg4y0j">
+      <a class="article-gallery-img fancybox" href="../../../../gallery/confederate_newspaper.png" rel="gallery_cixk1r1i1000udkmyi47b12ov">
         <img src="../../../../gallery/confederate_newspaper.png" itemprop="image">
       </a>
     
@@ -240,7 +247,7 @@ Artificial intelligence has the power to">
     <div id="toc" class="toc-article">
     <strong class="toc-title">Contents</strong>
     
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#以下为霍金演讲全文的中文版："><span class="toc-number">1.</span> <span class="toc-text">以下为霍金演讲全文的中文版：</span></a></li></ol>
+      <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#以下为霍金演讲全文的中文版："><span class="nav-number">1.</span> <span class="nav-text">以下为霍金演讲全文的中文版：</span></a></li></ol>
     
     </div>
   </aside>
@@ -284,6 +291,11 @@ Artificial intelligence has the power to">
 
     wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
     contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    var headerblur = document.getElementById("header-blur");
+    headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
 </script>
     
 <div style="display: none;">

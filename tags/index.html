@@ -49,7 +49,11 @@
 
 </head>
 
-<body>
+
+
+  <body>
+
+
   
 
 
@@ -59,11 +63,14 @@
       <div class="site-branding">
 
           <h1 class="site-title">
-            <a href="/hexo-theme-hipaper/" title="iTimeTraveler" rel="home">
-              iTimeTraveler</a>
+            
+              <a href="/hexo-theme-hipaper/" title="iTimeTraveler" rel="home"> iTimeTraveler </a>
+            
           </h1>
-          <div class="site-description">Someone knock at the door.</div>
-
+          
+          
+            <div class="site-description">Someone knock at the door.</div>
+          
             
           <nav id="main-navigation" class="main-navigation" role="navigation">
             <a class="nav-open">Menu</a>
@@ -113,11 +120,11 @@
             
                 <a href="#BAT" title="BAT" rel="1">BAT</a>
             
-                <a href="#Research" title="Research" rel="1">Research</a>
-            
                 <a href="#sticky" title="sticky" rel="1">sticky</a>
             
                 <a href="#template" title="template" rel="1">template</a>
+            
+                <a href="#Research" title="Research" rel="1">Research</a>
             
                 <a href="#Hexo" title="Hexo" rel="1">Hexo</a>
             
@@ -599,6 +606,11 @@
 
     wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
     contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    var headerblur = document.getElementById("header-blur");
+    headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
 </script>
     
 <div style="display: none;">

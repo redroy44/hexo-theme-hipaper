@@ -53,7 +53,11 @@
 
 </head>
 
-<body>
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
   
 
 
@@ -63,11 +67,14 @@
       <div class="site-branding">
 
           <h1 class="site-title">
-            <a href="/hexo-theme-hipaper/" title="iTimeTraveler" rel="home">
-              iTimeTraveler</a>
+            
+              <a href="/hexo-theme-hipaper/" title="iTimeTraveler" rel="home"> iTimeTraveler </a>
+            
           </h1>
-          <div class="site-description">Someone knock at the door.</div>
-
+          
+          
+            <div class="site-description">Someone knock at the door.</div>
+          
             
           <nav id="main-navigation" class="main-navigation" role="navigation">
             <a class="nav-open">Menu</a>
@@ -106,7 +113,7 @@
 <div class="article-gallery">
   <div class="article-gallery-photos">
     
-      <a class="article-gallery-img fancybox" href="https://itimetraveler.github.io/hexo-theme-hiker/2016/10/24/Hiker%E4%B8%BB%E9%A2%98%E9%A2%84%E8%A7%88/homepage-index.png" rel="gallery_cixgvow9c000d70myycnut0zj">
+      <a class="article-gallery-img fancybox" href="https://itimetraveler.github.io/hexo-theme-hiker/2016/10/24/Hiker%E4%B8%BB%E9%A2%98%E9%A2%84%E8%A7%88/homepage-index.png" rel="gallery_cixk1r1ho000edkmyb2glvodo">
         <img src="https://itimetraveler.github.io/hexo-theme-hiker/2016/10/24/Hiker%E4%B8%BB%E9%A2%98%E9%A2%84%E8%A7%88/homepage-index.png" itemprop="image">
       </a>
     
@@ -222,7 +229,7 @@
     <div id="toc" class="toc-article">
     <strong class="toc-title">Contents</strong>
     
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hiker主题预览"><span class="toc-number">1.</span> <span class="toc-text">Hiker主题预览</span></a></li></ol>
+      <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hiker主题预览"><span class="nav-number">1.</span> <span class="nav-text">Hiker主题预览</span></a></li></ol>
     
     </div>
   </aside>
@@ -266,6 +273,11 @@
 
     wrapdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
     contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
+
+
+    <!-- headerblur min height -->
+    var headerblur = document.getElementById("header-blur");
+    headerblur.style.minHeight = window.getComputedStyle(document.getElementById("allheader"), null).height;
 </script>
     
 <div style="display: none;">
