@@ -57,9 +57,13 @@
   
     <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(); background-size: auto 100%;">
     <script>
-        var imgs = "css/images/home-bg.jpg,css/images/sample.jpg,css/images/pose.jpg".split(",");
-        var random = Math.floor((Math.random() * imgs.length ));
-        document.getElementById("intrologo").style.backgroundImage='url(' + imgs[random] + ')';
+        var imgUrls = "css/images/home-bg.jpg,css/images/sample.jpg,http://t.cn/RMbvEza".split(",");
+        var random = Math.floor((Math.random() * imgUrls.length ));
+        if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
+          document.getElementById("intrologo").style.backgroundImage='url(' + imgUrls[random] + ')';
+        } else {
+          document.getElementById("intrologo").style.backgroundImage='url(/hexo-theme-hiker/' + imgUrls[random] + ')';
+        }
     </script>
   
 
