@@ -82,7 +82,6 @@
   <script>
         var imgUrls = "css/images/pose02.jpg,http://t.cn/RMbvEza".split(",");
         var random = Math.floor((Math.random() * imgUrls.length ));
-        console.log(imgUrls[random]);
         if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
           document.getElementById("originBg").src=imgUrls[random];
           document.getElementById("blurBg").src=imgUrls[random];
