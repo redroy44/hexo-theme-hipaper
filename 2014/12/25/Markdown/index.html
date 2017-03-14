@@ -706,7 +706,7 @@ A backtick-delimited string in a code span: `` `foo` ``
 </code></pre><p>Preview:</p>
 <hr>
 <p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a></p>
-<p><a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#58;&#97;&#100;&#x64;&#114;&#101;&#115;&#x73;&#x40;&#101;&#120;&#x61;&#109;&#112;&#108;&#101;&#x2e;&#x63;&#111;&#x6d;">&#97;&#100;&#x64;&#114;&#101;&#115;&#x73;&#x40;&#101;&#120;&#x61;&#109;&#112;&#108;&#101;&#x2e;&#x63;&#111;&#x6d;</a></p>
+<p><a href="&#109;&#97;&#105;&#x6c;&#116;&#111;&#x3a;&#97;&#100;&#100;&#114;&#x65;&#x73;&#x73;&#x40;&#101;&#x78;&#x61;&#109;&#112;&#108;&#101;&#x2e;&#x63;&#111;&#109;">&#97;&#100;&#100;&#114;&#x65;&#x73;&#x73;&#x40;&#101;&#x78;&#x61;&#109;&#112;&#108;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
 <hr>
 <p>GFM will autolink standard URLs.</p>
 <p>Code:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">https://github.com/emn178/markdown</div></pre></td></tr></table></figure></p>
@@ -842,11 +842,19 @@ This is another regular paragraph.
   
 
   <div class="container">
-      <div class="row">
+      	<div class="row">
 	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
 	      <p id="copyRightEn">Copyright &copy; 2013 - 2017 iTimeTraveler All Rights Reserved.</p>
-	      <p id="copyRightCn">Mr.Seven hold copyright</p>
-	</div>
+	      
+	      
+    		<p class="busuanzi_uv">
+				<span id="busuanzi_container_site_uv"> UV : <span id="busuanzi_value_site_uv"></span></span> |  
+				<span id="busuanzi_container_site_pv"> PV : <span id="busuanzi_value_site_pv"></span></span>
+		    </p>
+  		   
+		</div>
+
+		
   </div>
 </footer>
 
@@ -884,7 +892,9 @@ This is another regular paragraph.
   <script src="https://s11.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
 </div>
 
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 
 <!-- mathjax config similar to math.stackexchange -->
 
