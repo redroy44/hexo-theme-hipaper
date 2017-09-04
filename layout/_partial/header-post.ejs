@@ -1,5 +1,5 @@
-<% if (is_current("about", false) && theme.about_big_image){ %>
-  
+<% if (is_current("index", false) && theme.about_big_image){ %>
+
   <div class="site-header-image">
     <img id="originBg" width="100%" alt="Hike News" src="">
   </div>
@@ -23,8 +23,8 @@
 <% } %>
 
 
-<header id="allheader" class="site-header" role="banner" 
-  <% if (is_current("about", false) && theme.about_big_image){ %> style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);" <% } %> >
+<header id="allheader" class="site-header" role="banner"
+  <% if (is_current("index", false) && theme.about_big_image){ %> style="width: 100%; position: absolute; top:0; background: rgba(255,255,255,.8);" <% } %> >
   <div class="clearfix container">
       <div class="site-branding">
 
@@ -37,11 +37,11 @@
               <a href="<%= config.root %>" title="<%= config.title %>" rel="home"> <%= config.title %> </a>
             <% } %>
           </h1>
-          
+
           <% if (config.description){ %>
             <div class="site-description"><%= config.description %></div>
           <% } %>
-            
+
           <nav id="main-navigation" class="main-navigation" role="navigation">
             <a class="nav-open">Menu</a>
             <a class="nav-close">Close</a>

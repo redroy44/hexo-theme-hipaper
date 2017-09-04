@@ -1,0 +1,36 @@
+home: Strona Główna
+archives: Archiwum
+about: O Nas
+categories: Kategorie
+contact: Kontakt
+collaboration: Współpraca
+search: Szukaj
+tags: Tagi
+tagcloud: Tag Cloud
+tweets: Tweets
+prev: Poprzedni
+next: Następny
+comment: Komentarze
+archive_a: Archiwum
+archive_b: "Archiwum: %s"
+page: Strona %d
+recent_posts: Ostatnie wpisy
+newer: Następny
+older: Poprzedni
+share: Udostępnij
+theme_by: Theme by
+rss_feed: Kanał RSS
+category: Kategoria
+tag: Tag
+connect: 'Znajdź nas'
+post_total_count: Opublikowano %d wpisów.
+read_more: Czytaj dalej →
+contents: Spis Treści
+none: Nic
+insight:
+    hint: 'Zacznij pisać...'
+    posts: 'Posty'
+    pages: 'Strony'
+    categories: 'Kategorie'
+    tags: 'Tagi'
+    untitled: '(bez nazwy)'

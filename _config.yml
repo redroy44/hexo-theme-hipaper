@@ -7,8 +7,9 @@ menu:
   Home: /
   Archives: archives
   Categories: categories
-  Tags: tags
   About: about
+  Contact: contact
+  Collaboration: collaboration
 rss: /atom.xml
 
 
@@ -18,19 +19,18 @@ keywords: ""
 # Put your favicon.ico into `hexo-site/themes/hipaper/source/` directory.
 favicon: css/images/favicon.ico
 
-
 # Put your avatar.jpg into `hexo-site/themes/hipaper/source/` directory.
 # url is target link (E.g. `url: https://hexo.io/logo.svg` or `url: css/images/mylogo.jpg`)
-avatar: 
+avatar:
   enable: false
-  width: 124
-  height: 124
-  bottom: 10
-  url: https://hexo.io/logo.svg
+  width:
+  height:
+  bottom:
+  url:
 
 
-# AboutPage background, support multiple images.
-about_big_image: [css/images/pose01.jpg, https://source.unsplash.com/collection/954550/1920x1080, https://source.unsplash.com/collection/954550/1920x1081]
+# Home background, support multiple images.
+about_big_image: [../gallery/4.jpg]
 
 
 # Homepage thumbnail
@@ -56,12 +56,12 @@ widgets:
 # Key is the name of FontAwsome icon.
 # Value is the target link (E.g. GitHub: https://github.com/iTimeTraveler)
 social:
-  Github: https://github.com/iTimeTraveler
-  Weibo: 
-  Twitter: 
-  Facebook: 
-  Google-plus: 
-  Instagram: 
+  Twitter: https://twitter.com
+  Facebook: https://facebook.pl
+  Instagram: https://instagram.com
+  Envelope: mailto:redroy44@gmail.com
+  Youtube: https://youtube.pl
+  Rss: /atom.xml
 
 
 # Search
@@ -72,11 +72,11 @@ search:
 
 
 # comment ShortName, you can choose only ONE to display.
-duoshuo_shortname: 
-disqus_shortname: 
-livere_shortname: MTAyMC8yOTQ4MS82MDQ5
-uyan_uid: 
-wumii: 
+duoshuo_shortname:
+disqus_shortname:
+livere_shortname:
+uyan_uid:
+wumii:
 
 
 # Code Highlight theme
@@ -101,7 +101,7 @@ google_analytics:
 gauges_analytics:
 baidu_analytics:
 tencent_analytics:
-busuanzi_analytics: true
+busuanzi_analytics:
 twitter:
 google_plus:
 fb_admins:
@@ -117,4 +117,4 @@ facebook_sdk:
   webmaster:    #true
 
 # CNZZ count
-cnzz_siteid: 1260716016
+cnzz_siteid:
