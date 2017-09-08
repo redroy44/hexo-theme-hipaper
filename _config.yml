@@ -30,7 +30,7 @@ avatar:
 
 
 # Home background, support multiple images.
-about_big_image: [../gallery/4.jpg]
+about_big_image: [../gallery/preikestolen.jpg]
 
 
 # Homepage thumbnail
@@ -73,7 +73,7 @@ search:
 
 # comment ShortName, you can choose only ONE to display.
 duoshuo_shortname:
-disqus_shortname:
+disqus_shortname: maleiduze
 livere_shortname:
 uyan_uid:
 wumii:
@@ -97,7 +97,7 @@ baidu_site_verification:
 qihu_site_verification:
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-88448128-2
 gauges_analytics:
 baidu_analytics:
 tencent_analytics:
